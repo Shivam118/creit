@@ -264,6 +264,8 @@ export default function Home() {
           <address>India:<br />Cyber Hub, Gurugram<br />Zip Code: 122002</address>
           <address>USA:<br />635 w 42nd st, New York,<br />Zip Code: 10036</address>
         </div>
+        <br />
+        <br />
         <p>Copyright © 2023. All rights reserved.</p>
       </footer>
     </main>
