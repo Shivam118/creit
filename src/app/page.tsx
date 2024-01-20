@@ -3,8 +3,6 @@ import Image from 'next/image'
 import { CiCreditCard1 } from "react-icons/ci";
 import { GoProjectRoadmap, GoQuestion } from "react-icons/go";
 import { PiStack } from "react-icons/pi";
-
-
 import "./App.css";
 import Link from 'next/link';
 
