@@ -144,7 +144,7 @@ export default function Home() {
             </div>
             <div className='pricingCard'>
               <h3>MVP Plan</h3>
-              <h2 style={{ fontSize: "20px" }}>90 days under $10,000</h2>
+              <h2 style={{ fontSize: "20px" }}>45 days under $10,000</h2>
               <Link href="https://calendly.com/paarthg" target="_blank"><button>Get Started</button></Link>
               <ul className='pricingCardFeatures'>
                 <p>This includes:</p>
