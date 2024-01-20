@@ -32,7 +32,7 @@ export default function Home() {
         </section>
         <section className='benefits' id="benefits">
           <div className="engineerWorks">
-            <h3>Created by teams at</h3>
+            <h3>Powered by engineers from</h3>
             <div className="companiesLogo">
               <span><Image src="/assets/images/adobe.png" alt="Adobe" width={150} height={100} /></span>
               <span><Image src="/assets/images/amazon.png" alt="Adobe" width={150} height={100} /></span>
@@ -115,7 +115,7 @@ export default function Home() {
             <div className='pricingCard'>
               <h3>Monthly</h3>
               <h2>$ 4000/m</h2>
-              <Link href="https://calendly.com/paarthg"><button>Get Started</button></Link>
+              <Link href="https://calendly.com/paarthg" target="_blank"><button>Get Started</button></Link>
               <ul className='pricingCardFeatures'>
                 <p>This includes:</p>
                 <li>Unlimited requests</li>
@@ -125,12 +125,12 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
-              <Link href="https://calendly.com/paarthg">Book a call</Link>
+              <Link href="https://calendly.com/paarthg" target="_blank">Book a call</Link>
             </div>
             <div className='pricingCard'>
               <h3>Annually</h3>
               <h2>$ 42000/yr</h2>
-              <Link href="https://calendly.com/paarthg"><button>Get Started</button></Link>
+              <Link href="https://calendly.com/paarthg" target="_blank"><button>Get Started</button></Link>
               <ul className='pricingCardFeatures'>
                 <p>This includes:</p>
                 <li>Unlimited requests</li>
@@ -140,23 +140,29 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
-              <Link href="https://calendly.com/paarthg">Book a call</Link>
+              <Link href="https://calendly.com/paarthg" target="_blank">Book a call</Link>
             </div>
-            <div className='fullStackCard'>
-              <span><PiStack /></span>
-              <h3>Full Stack Development</h3>
-              <p>
-                {`From crafting sleek front-end experiences to seamlessly weaving the intricate threads of Node.js for powerful back-end support, we've got your Full Stack needs covered. Let us handle the API development magic that brings your UI 
-                to life!`}
-              </p>
-              <Link href="https://calendly.com/paarthg">Contact Us</Link>
+            <div className='pricingCard'>
+              <h3>MVP Plan</h3>
+              <h2 style={{ fontSize: "20px" }}>90 days under $10,000</h2>
+              <Link href="https://calendly.com/paarthg" target="_blank"><button>Get Started</button></Link>
+              <ul className='pricingCardFeatures'>
+                <p>This includes:</p>
+                <li>Unlimited requests</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited users</li>
+                <li>Senior, in-house talent</li>
+                <li>Slack support</li>
+                <li>Pause or cancel anytime</li>
+              </ul>
+              <Link href="https://calendly.com/paarthg" target="_blank">Book a call</Link>
             </div>
           </div>
         </section>
         <section className='extraCard'>
           <h1>See if we are right for you.</h1>
           <p>Get a guided tour through creIT Labs, and find out how you and your team can benefit from having a full stack development subscription.</p>
-          <Link href="https://calendly.com/paarthg"><button>Get Started</button></Link>
+          <Link href="https://calendly.com/paarthg" target="_blank"><button>Get Started</button></Link>
         </section>
         <section className='testimonials'>
           <h4>7,500 requests completed for 30+ customers</h4>
