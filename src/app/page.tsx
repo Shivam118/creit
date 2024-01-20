@@ -30,7 +30,7 @@ export default function Home() {
         <section className='hero'>
           <h1>The better way to get Development Done</h1>
           <p>Development as a Service for startups, scale-ups, enterprises and agencies. Just join, create some asks, and we deliver.</p>
-          <button>See plans</button>
+          <Link href="#pricing"><button>See plans</button></Link>
         </section>
         <section className='benefits' id="benefits">
           <div className="engineerWorks">
@@ -117,7 +117,7 @@ export default function Home() {
             <div className='pricingCard'>
               <h3>Monthly</h3>
               <h2>$ 4000/m</h2>
-              <button>Get Started</button>
+              <Link href="https://calendly.com/paarthg"><button>Get Started</button></Link>
               <ul className='pricingCardFeatures'>
                 <p>This includes:</p>
                 <li>Unlimited requests</li>
@@ -127,12 +127,12 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
-              <a href="#">Book a call</a>
+              <Link href="https://calendly.com/paarthg">Book a call</Link>
             </div>
             <div className='pricingCard'>
               <h3>Annually</h3>
               <h2>$ 42000/yr</h2>
-              <button>Get Started</button>
+              <Link href="https://calendly.com/paarthg"><button>Get Started</button></Link>
               <ul className='pricingCardFeatures'>
                 <p>This includes:</p>
                 <li>Unlimited requests</li>
@@ -142,7 +142,7 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
-              <a href="#">Book a call</a>
+              <Link href="https://calendly.com/paarthg">Book a call</Link>
             </div>
             <div className='fullStackCard'>
               <span><PiStack /></span>
@@ -151,9 +151,14 @@ export default function Home() {
                 {`From crafting sleek front-end experiences to seamlessly weaving the intricate threads of Node.js for powerful back-end support, we've got your Full Stack needs covered. Let us handle the API development magic that brings your UI 
                 to life!`}
               </p>
-              <a href="#">Contact Us</a>
+              <Link href="https://calendly.com/paarthg">Contact Us</Link>
             </div>
           </div>
+        </section>
+        <section className='extraCard'>
+          <h1>See if we are right for you.</h1>
+          <p>Get a guided tour through creIT Labs, and find out how you and your team can benefit from having a full stack development subscription.</p>
+          <Link href="https://calendly.com/paarthg"><button>Get Started</button></Link>
         </section>
         <section className='testimonials'>
           <h4>7,500 requests completed for 30+ customers</h4>
@@ -214,13 +219,48 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='faq' id="faqs"></section>
-        <section className='extraCard'>
-          <h1>See if we are right for you.</h1>
-          <p>Get a guided tour through creIT Labs, and find out how you and your team can benefit from having a full stack development subscription.</p>
-          <button>Get Started</button>
-        </section>
       </div>
+      <section className='faq' id="faqs">
+        <h3>FAQs</h3>
+        <div className='faqCards'>
+          <div className='faqCard'>
+            <h4>How does it work?</h4>
+            <p>
+              {`We have a team of engineers who are ready to work on your requests. You can submit requests through our dashboard, and we will get to work. We will keep you updated on the progress of your requests, and you can always reach out to us through Slack.`}
+            </p>
+          </div>
+          <div className='faqCard'>
+            <h4>How many requests can I make?</h4>
+            <p>
+              {`You can make unlimited requests. We will work on one request at a time, and we will not start a new request until the previous one is completed. We will keep you updated on the progress of your requests, and you can always reach out to us through Slack.`}
+            </p>
+          </div>
+          <div className='faqCard'>
+            <h4>How many users can I add?</h4>
+            <p>
+              {`You can add unlimited users to your account. You can also add unlimited projects to your account. We will work on one project at a time, and we will not start a new project until the previous one is completed.`}
+            </p>
+          </div>
+          <div className='faqCard'>
+            <h4>What if I need more than one request at a time?</h4>
+            <p>
+              {`You can add unlimited users to your account. You can also add unlimited projects to your account. We will work on one project at a time, and we will not start a new project until the previous one is completed.`}
+            </p>
+          </div>
+          <div className='faqCard'>
+            <h4>What if I need more than one project at a time?</h4>
+            <p>
+              {`You can add unlimited users to your account. You can also add unlimited projects to your account. We will work on one project at a time, and we will not start a new project until the previous one is completed.`}
+            </p>
+          </div>
+          <div className='faqCard'>
+            <h4>What if I need to pause or cancel my subscription?</h4>
+            <p>
+              {`You can add unlimited users to your account. You can also add unlimited projects to your account. We will work on one project at a time, and we will not start a new project until the previous one is completed.`}
+            </p>
+          </div>
+        </div>
+      </section>
       <footer className='footer'>
         <div className='addresses'>
           <address>India:<br />Cyber Hub, Gurugram<br />Zip Code: 122002</address>

@@ -362,6 +362,45 @@
   font-weight: 400;
   cursor: pointer;
 }
+.faq {
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
+.faq h3 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.faq .faqCards {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq .faqCards .faqCard {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 20px;
+}
+.faq .faqCards .faqCard h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.faq .faqCards .faqCard p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #b6b6b6;
+}
 
 .footer {
   width: 100%;
