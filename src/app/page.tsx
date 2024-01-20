@@ -142,16 +142,17 @@ export default function Home() {
               </ul>
               <Link href="https://calendly.com/paarthg" target="_blank">Book a call</Link>
             </div>
-            <div className='pricingCard'>
-              <h3>MVP Plan</h3>
+            <div className='founderCard'>
+              <h3>By founders for founders</h3>
               <h2 style={{ fontSize: "20px" }}>45 days under $10,000</h2>
               <Link href="https://calendly.com/paarthg" target="_blank"><button>Get Started</button></Link>
               <ul className='pricingCardFeatures'>
                 <p>This includes:</p>
-                <li>Unlimited requests</li>
-                <li>Unlimited projects</li>
-                <li>Unlimited users</li>
-                <li>Senior, in-house talent</li>
+                <li>30-minute compatibility assessment.</li>
+                <li>Receive Prototype in 1<sup>st</sup> Week.</li>
+                <li>Feedback call.</li>
+                <li>2-3 weeks of app building.</li>
+                <li>30min calls to request any revisions.</li>
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
