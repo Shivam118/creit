@@ -86,15 +86,32 @@
   color: grey;
   margin: 15px 0px;
 }
-.hero button {
+.hero .heroBtns {
   margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.hero .planBtn {
   padding: 15px 25px;
   border-radius: 7px;
   background: black;
   color: white;
-  font-size: 18px;
-  font-weight: 500;
   cursor: pointer;
+}
+.hero .planBtn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+.hero .meetBtn {
+  margin-left: 25px;
+  padding: 15px 25px;
+  border-radius: 7px;
+  background: white;
+  border: 1px solid #cecece;
+  color: black;
+  cursor: pointer;
+}
+.hero .meetBtn:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 .benefits .engineerWorks {
   width: 100%;

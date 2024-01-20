@@ -28,7 +28,10 @@ export default function Home() {
         <section className='hero'>
           <h1>The better way to get Development Done</h1>
           <p>Development as a Service for startups, scale-ups, enterprises and agencies. Just join, create some asks, and we deliver.</p>
-          <Link href="#pricing"><button>See plans</button></Link>
+          <div className='heroBtns'>
+            <Link href="#pricing"><button className='planBtn'>See plans</button></Link>
+            <Link href="https://calendly.com/paarthg" target="_blank"><button className='meetBtn'>Schedule a Meeting</button></Link>
+          </div>
         </section>
         <section className='benefits' id="benefits">
           <div className="engineerWorks">
