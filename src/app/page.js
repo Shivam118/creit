@@ -95,180 +95,200 @@ export default function Home() {
                 <Image
                   src="/assets/images/adobe.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/amazon.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/google.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/salesforce.png"
                   alt="Adobe"
-                  width={100}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/tinder.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/darwinbox.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/gojek.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/guardian.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/happay.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/linkedin.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/myntra.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/wallmart.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/oyo.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/phonepe.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/target.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/xoxoday.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/zomato.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/goldmann.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/naukri.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
               <span>
                 <Image
                   src="/assets/images/vedantu.png"
                   alt="Adobe"
-                  width={150}
+                  width={0}
                   height={0}
-                  style={{ height: "auto" }}
+                  sizes={"100vw"}
+                  style={{ height: "auto", width: "100%" }}
                 />
               </span>
             </div>
@@ -316,8 +336,10 @@ export default function Home() {
             <Image
               src="/assets/images/card1.png"
               alt="card1"
-              width={500}
-              height={500}
+              width={0}
+              height={0}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div className="protoCard">
@@ -325,8 +347,10 @@ export default function Home() {
             <Image
               src="/assets/images/card2.png"
               alt="card2"
-              width={500}
-              height={500}
+              width={0}
+              height={0}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div className="protoCard">
@@ -334,8 +358,10 @@ export default function Home() {
             <Image
               src="/assets/images/card3.png"
               alt="card3"
-              width={500}
-              height={500}
+              width={0}
+              height={0}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div className="protoCard">
@@ -343,8 +369,10 @@ export default function Home() {
             <Image
               src="/assets/images/card4.png"
               alt="card4"
-              width={500}
-              height={500}
+              width={0}
+              height={0}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
         </section>

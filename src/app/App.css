@@ -68,7 +68,7 @@
 
 .hero {
   width: 100%;
-  height: 800px;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,6 @@
   top: 0;
   left: 0;
   z-index: -1;
-  
 }
 .hero .content {
   width: 100%;
@@ -110,6 +109,10 @@
   margin: 15px 0px;
 }
 .hero .content .heroBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 25px;
   font-size: 18px;
   font-weight: 500;
@@ -158,7 +161,7 @@
 }
 .benefits .engineerWorks .companiesLogo span {
   width: 100%;
-  height: 100%;
+  max-width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -484,14 +487,23 @@
   .main-container .header .navList .navItem a span {
     font-size: 18px;
   }
-
+  .hero {
+    height: 800px;
+  }
+  .hero .stars {
+    display: none;
+  }
+  .hero .earth {
+    width: 100%;
+    display: none;
+  }
   .hero h1 {
-    width: 75%;
+    width: 100%;
     font-size: 38px;
     margin-bottom: 15px;
   }
   .hero p {
-    width: 80%;
+    width: 100%;
     font-size: 18px;
   }
   .hero button {
@@ -558,16 +570,30 @@
   .main-container .header .navList .navItem {
     display: none;
   }
-
-  .hero h1 {
-    width: 80%;
+  .hero {
+    width: 100%;
+    height: 800px;
+  }
+  .hero .content {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .hero .content h1 {
+    width: 100%;
     font-size: 30px;
   }
-  .hero p {
+  .hero .content p {
     font-size: 16px;
+  }
+  .hero .content .heroBtns {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .hero button {
     font-size: 15px;
+  }
+  .hero .content .heroBtns .meetBtn {
+    margin-left: 0px;
   }
   .benefits .engineerWorks .companiesLogo {
     grid-gap: 20px;
