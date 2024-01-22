@@ -71,39 +71,60 @@
   height: 800px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
 }
-.hero h1 {
-  width: 50%;
+.hero .stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+}
+.hero .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero .earth {
+  width: 100%;
+  height: 100%;
+}
+.hero .content h1 {
+  width: 100%;
   font-size: 44px;
   font-weight: 700;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
-.hero p {
-  width: 60%;
+.hero .content p {
+  width: 100%;
   font-size: 20px;
   font-weight: 300;
   color: grey;
   margin: 15px 0px;
 }
-.hero .heroBtns {
+.hero .content .heroBtns {
   margin-top: 25px;
   font-size: 18px;
   font-weight: 500;
 }
-.hero .planBtn {
+.hero .content .planBtn {
   padding: 15px 25px;
   border-radius: 7px;
   background: black;
   color: white;
   cursor: pointer;
 }
-.hero .planBtn:hover {
+.hero .content .planBtn:hover {
   background: rgba(0, 0, 0, 0.9);
 }
-.hero .meetBtn {
+.hero .content .meetBtn {
   margin-left: 25px;
   padding: 15px 25px;
   border-radius: 7px;
@@ -112,7 +133,7 @@
   color: black;
   cursor: pointer;
 }
-.hero .meetBtn:hover {
+.hero .content .meetBtn:hover {
   background: rgba(0, 0, 0, 0.1);
 }
 .benefits .engineerWorks {
@@ -185,7 +206,7 @@
   border-radius: 20px;
   padding: 20px;
 }
-.proto .protoCard:hover{
+.proto .protoCard:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
@@ -228,6 +249,7 @@
   gap: 40px;
 }
 .pricing .pricingCards .pricingCard,
+.pricing .pricingCards .customizeCard,
 .pricing .pricingCards .founderCard {
   width: 300px;
   height: 450px;
@@ -241,18 +263,24 @@
   margin: 20px 0px;
   padding: 10px 20px;
   border: 2px solid #ccc;
+  position: relative;
 }
-.pricing .pricingCards .pricingCard h3 {
-  font-size: 20px;
+.pricing .pricingCards .pricingCard h3,
+.pricing .pricingCards .customizeCard h3,
+.pricing .pricingCards .founderCard h3 {
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.pricing .pricingCards .pricingCard h2 {
+.pricing .pricingCards .pricingCard h2,
+.pricing .pricingCards .customizeCard h2,
+.pricing .pricingCards .founderCard h2 {
   font-size: 26px;
   font-weight: 900;
   margin-bottom: 15px;
 }
 .pricing .pricingCards .pricingCard button,
+.pricing .pricingCards .customizeCard button,
 .pricing .pricingCards .founderCard button {
   width: 100%;
   font-weight: 300;
@@ -266,50 +294,34 @@
 }
 
 .pricing .pricingCards .pricingCard button:hover,
+.pricing .pricingCards .customizeCard button:hover,
 .pricing .pricingCards .founderCard button:hover {
   background: #333;
   cursor: pointer;
 }
-.pricing .pricingCards .pricingCard .pricingCardFeatures {
+.pricing .pricingCards .pricingCard .pricingCardFeatures,
+.pricing .pricingCards .founderCard .pricingCardFeatures,
+.pricing .pricingCards .customizeCard .pricingCardFeatures {
   width: 100%;
   font-size: 14px;
   list-style: square;
   margin-bottom: 10px;
 }
-.pricing .pricingCards .pricingCard .pricingCardFeatures li {
+.pricing .pricingCards .pricingCard .pricingCardFeatures li,
+.pricing .pricingCards .customizeCard .pricingCardFeatures li,
+.pricing .pricingCards .founderCard .pricingCardFeatures li {
   margin: 5px 0px;
   margin-left: 15px;
 }
 
 .pricing .pricingCards .pricingCard a,
+.pricing .pricingCards .customizeCard a,
 .pricing .pricingCards .founderCard a {
   width: 100%;
   text-align: center;
   text-decoration: underline;
   font-size: 14px;
 }
-
-.pricing .pricingCards .founderCard h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.pricing .pricingCards .founderCard h2 {
-  font-size: 26px;
-  font-weight: 900;
-  margin-bottom: 15px;
-}
-.pricing .pricingCards .founderCard .pricingCardFeatures {
-  width: 100%;
-  font-size: 14px;
-  list-style: square;
-  margin-bottom: 10px;
-}
-.pricing .pricingCards .founderCard .pricingCardFeatures li {
-  margin: 5px 0px;
-  margin-left: 15px;
-}
-
 .testimonials {
   width: 100%;
   padding: 80px 0px;

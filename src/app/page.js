@@ -5,6 +5,8 @@ import { GoProjectRoadmap, GoQuestion } from "react-icons/go";
 import "./App.css";
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
+import EarthCanvas from "./Earth";
+import StarCanvas from "./Stars";
 
 export default function Home() {
   return (
@@ -63,18 +65,26 @@ export default function Home() {
           </ul>
         </nav>
         <section className="hero">
-          <h1>The better way to get Development Done</h1>
-          <p>
-            Development as a Service for startups, scale-ups, enterprises and
-            agencies. Just join, create some asks, and we deliver.
-          </p>
-          <div className="heroBtns">
-            <ScrollLink to="pricing" spy={true} smooth={true} duration={500}>
-              <button className="planBtn">See plans</button>
-            </ScrollLink>
-            <Link href="https://calendly.com/paarthg" target="_blank">
-              <button className="meetBtn">Schedule a Meeting</button>
-            </Link>
+          <div className="stars">
+            <StarCanvas />
+          </div>
+          <div className="content">
+            <h1>The better way to get Development Done</h1>
+            <p>
+              Development as a Service for startups, scale-ups, enterprises and
+              agencies. Just join, create some asks, and we deliver.
+            </p>
+            <div className="heroBtns">
+              <ScrollLink to="pricing" spy={true} smooth={true} duration={500}>
+                <button className="planBtn">See plans</button>
+              </ScrollLink>
+              <Link href="https://calendly.com/paarthg" target="_blank">
+                <button className="meetBtn">Schedule a Meeting</button>
+              </Link>
+            </div>
+          </div>
+          <div className="earth">
+            <EarthCanvas />
           </div>
         </section>
         <section className="benefits" id="benefits">
@@ -86,7 +96,8 @@ export default function Home() {
                   src="/assets/images/adobe.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -94,7 +105,8 @@ export default function Home() {
                   src="/assets/images/amazon.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -102,7 +114,8 @@ export default function Home() {
                   src="/assets/images/google.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -110,7 +123,8 @@ export default function Home() {
                   src="/assets/images/salesforce.png"
                   alt="Adobe"
                   width={100}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -118,7 +132,8 @@ export default function Home() {
                   src="/assets/images/tinder.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -126,7 +141,8 @@ export default function Home() {
                   src="/assets/images/darwinbox.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -134,7 +150,8 @@ export default function Home() {
                   src="/assets/images/gojek.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -142,7 +159,8 @@ export default function Home() {
                   src="/assets/images/guardian.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -150,7 +168,8 @@ export default function Home() {
                   src="/assets/images/happay.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -158,7 +177,8 @@ export default function Home() {
                   src="/assets/images/linkedin.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -166,7 +186,8 @@ export default function Home() {
                   src="/assets/images/myntra.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -174,7 +195,8 @@ export default function Home() {
                   src="/assets/images/wallmart.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -182,7 +204,8 @@ export default function Home() {
                   src="/assets/images/oyo.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -190,7 +213,8 @@ export default function Home() {
                   src="/assets/images/phonepe.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -198,7 +222,8 @@ export default function Home() {
                   src="/assets/images/target.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -206,7 +231,8 @@ export default function Home() {
                   src="/assets/images/xoxoday.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -214,7 +240,8 @@ export default function Home() {
                   src="/assets/images/zomato.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -222,7 +249,8 @@ export default function Home() {
                   src="/assets/images/goldmann.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -230,7 +258,8 @@ export default function Home() {
                   src="/assets/images/naukri.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
               <span>
@@ -238,7 +267,8 @@ export default function Home() {
                   src="/assets/images/vedantu.png"
                   alt="Adobe"
                   width={150}
-                  height={100}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -327,7 +357,7 @@ export default function Home() {
           <div className="pricingCards">
             <div className="pricingCard">
               <h3>Monthly</h3>
-              <h2>$ 4000/m</h2>
+              <h2>$ 4000/mo</h2>
               <Link href="https://calendly.com/paarthg" target="_blank">
                 <button>Get Started</button>
               </Link>
@@ -340,7 +370,16 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
-              <Link href="https://calendly.com/paarthg" target="_blank">
+              <Link
+                href="https://calendly.com/paarthg"
+                target="_blank"
+                style={{
+                  color: "inherit",
+                  position: "absolute",
+                  bottom: "30px",
+                  left: "0px",
+                }}
+              >
                 Book a call
               </Link>
             </div>
@@ -359,7 +398,16 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
-              <Link href="https://calendly.com/paarthg" target="_blank">
+              <Link
+                href="https://calendly.com/paarthg"
+                target="_blank"
+                style={{
+                  color: "inherit",
+                  position: "absolute",
+                  bottom: "30px",
+                  left: "0px",
+                }}
+              >
                 Book a call
               </Link>
             </div>
@@ -381,7 +429,42 @@ export default function Home() {
                 <li>Slack support</li>
                 <li>Pause or cancel anytime</li>
               </ul>
+              <Link
+                href="https://calendly.com/paarthg"
+                target="_blank"
+                style={{
+                  color: "inherit",
+                  position: "absolute",
+                  bottom: "30px",
+                  left: "0px",
+                }}
+              >
+                Book a call
+              </Link>
+            </div>
+            <div className="customizeCard">
+              <h3>Having Doubts ??</h3>
+              <h2 style={{ fontSize: "20px" }}>Customize your own Plan</h2>
               <Link href="https://calendly.com/paarthg" target="_blank">
+                <button>Get Started</button>
+              </Link>
+              <ul className="pricingCardFeatures">
+                <p>This includes:</p>
+                <li>30-minute compatibility assessment.</li>
+                <li>
+                  Receive Prototype in 1<sup>st</sup> Week.
+                </li>
+              </ul>
+              <Link
+                href="https://calendly.com/paarthg"
+                target="_blank"
+                style={{
+                  color: "inherit",
+                  position: "absolute",
+                  bottom: "30px",
+                  left: "0px",
+                }}
+              >
                 Book a call
               </Link>
             </div>
@@ -410,7 +493,8 @@ export default function Home() {
                   src="/assets/images/salesforce.png"
                   alt="salesforce"
                   width={75}
-                  height={75}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -422,7 +506,8 @@ export default function Home() {
                   src="/assets/images/amazon.png"
                   alt="amazon"
                   width={75}
-                  height={75}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -436,7 +521,8 @@ export default function Home() {
                   src="/assets/images/banuba.png"
                   alt="banuba"
                   width={75}
-                  height={75}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -450,7 +536,8 @@ export default function Home() {
                   src="/assets/images/darwinbox.png"
                   alt="darwinbox"
                   width={75}
-                  height={75}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -464,7 +551,8 @@ export default function Home() {
                   src="/assets/images/xoxoday.png"
                   alt="xoxoday"
                   width={75}
-                  height={75}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -476,7 +564,8 @@ export default function Home() {
                   src="/assets/images/tinder.png"
                   alt="tinder"
                   width={75}
-                  height={75}
+                  height={0}
+                  style={{ height: "auto" }}
                 />
               </span>
             </div>
@@ -535,12 +624,17 @@ export default function Home() {
           <address>
             India:
             <br />
-            Cyber Hub, Gurugram
+            <br />
+            Wework, Cyber City, Gurugram
             <br />
             Zip Code: 122002
+            <br />
+            <br />
+            Contact: 8668572912
           </address>
           <address>
             USA:
+            <br />
             <br />
             635 w 42nd st, New York,
             <br />
