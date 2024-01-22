@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.bodyContainer {
+  width: 100%;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-container {
+  width: 100%;
+  max-width: 1100px;
+  position: relative;
+}
+.main-container .header {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+.main-container .header .headerLogo {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .header .headerLogo a {
+  font-size: 30px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+.main-container .header .navList {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-container .header .navList .navItem {
+  padding: 0px 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-container .header .navList .navItem a {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.main-container .header .navList .navItem a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.main-container .header .navList .navItem a span {
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.hero {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero h1 {
+  width: 50%;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.hero p {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 300;
+  color: grey;
+  margin: 15px 0px;
+}
+.hero .heroBtns {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.hero .planBtn {
+  padding: 15px 25px;
+  border-radius: 7px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.hero .planBtn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+.hero .meetBtn {
+  margin-left: 25px;
+  padding: 15px 25px;
+  border-radius: 7px;
+  background: white;
+  border: 1px solid #cecece;
+  color: black;
+  cursor: pointer;
+}
+.hero .meetBtn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.benefits .engineerWorks {
+  width: 100%;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.benefits .engineerWorks h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.benefits .engineerWorks .companiesLogo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 40px;
+  margin-top: 20px;
+}
+.benefits .engineerWorks .companiesLogo span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(100%);
+}
+.benefits .engineerWorks .companiesLogo span:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.benefits .techStack {
+  width: 100%;
+  margin-top: 40px;
+  padding: 80px 0px;
+}
+.benefits .techStack h2 {
+  width: 60%;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.benefits .techStack .techStackCards {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.benefits .techStack .techStackCards span {
+  width: 100%;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.proto {
+  width: 100%;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+.proto .protoCard {
+  background: #f5f5f7;
+  border-radius: 20px;
+  padding: 20px;
+}
+.proto .protoCard:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.proto .protoCard p {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin: 15px 0px;
+}
+.pricing {
+  margin: 150px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.pricing .pricingHeader {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 700;
+}
+.pricing .pricingDescription {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 15px 0px;
+  color: grey;
+}
+.pricing .pricingCards {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.pricing .pricingCards .pricingCard,
+.pricing .pricingCards .founderCard {
+  width: 300px;
+  height: 450px;
+  font-family: "Montserrat", "san-serif";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+}
+.pricing .pricingCards .pricingCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.pricing .pricingCards .pricingCard h2 {
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.pricing .pricingCards .pricingCard button,
+.pricing .pricingCards .founderCard button {
+  width: 100%;
+  font-weight: 300;
+  margin-bottom: 25px;
+  font-size: 18px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.pricing .pricingCards .pricingCard button:hover,
+.pricing .pricingCards .founderCard button:hover {
+  background: #333;
+  cursor: pointer;
+}
+.pricing .pricingCards .pricingCard .pricingCardFeatures {
+  width: 100%;
+  font-size: 14px;
+  list-style: square;
+  margin-bottom: 10px;
+}
+.pricing .pricingCards .pricingCard .pricingCardFeatures li {
+  margin: 5px 0px;
+  margin-left: 15px;
+}
+
+.pricing .pricingCards .pricingCard a,
+.pricing .pricingCards .founderCard a {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.pricing .pricingCards .founderCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.pricing .pricingCards .founderCard h2 {
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.pricing .pricingCards .founderCard .pricingCardFeatures {
+  width: 100%;
+  font-size: 14px;
+  list-style: square;
+  margin-bottom: 10px;
+}
+.pricing .pricingCards .founderCard .pricingCardFeatures li {
+  margin: 5px 0px;
+  margin-left: 15px;
+}
+
+.testimonials {
+  width: 100%;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials h4 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.testimonials .testimonialsCards {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.testimonials .testimonialsCards .testimonialsCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 20px 20px 45px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.testimonials .testimonialsCards .testimonialsCard .name {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.testimonials .testimonialsCards .testimonialsCard .Logo {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.extraCard {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  margin: 50px 0px;
+  padding: 0px 80px;
+}
+.extraCard h1 {
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.extraCard p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+.extraCard button {
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.faq {
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
+.faq h3 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.faq .faqCards {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq .faqCards .faqCard {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 20px;
+}
+.faq .faqCards .faqCard h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.faq .faqCards .faqCard p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #b6b6b6;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: grey;
+}
+.footer .addresses {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .bodyContainer {
+    min-width: 500px;
+  }
+  .main-container {
+    width: 100%;
+    max-width: 450px;
+  }
+  .main-container .header .headerLogo a {
+    font-size: 26px;
+  }
+  .main-container .header .navList .navItem {
+    padding: 0px 8px;
+  }
+  .main-container .header .navList .navItem a {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .main-container .header .navList .navItem a span {
+    font-size: 18px;
+  }
+
+  .hero h1 {
+    width: 75%;
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+  .hero p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .hero button {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .benefits .engineerWorks .companiesLogo {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+  .benefits .techStack h2 {
+    width: 85%;
+    font-size: 28px;
+  }
+
+  .proto {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .proto .protoCard p {
+    font-size: 16px;
+  }
+
+  .testimonials h4 {
+    font-size: 26px;
+  }
+  .testimonials .testimonialsCards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .testimonials .testimonialsCards .testimonialsCard {
+    padding: 10px 10px 45px 10px;
+  }
+
+  .extraCard {
+    margin: 50px 0px;
+    padding: 10px 40px;
+  }
+  .extraCard h1 {
+    font-size: 30px;
+  }
+  .extraCard p {
+    font-size: 16px;
+  }
+  .footer .addresses {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bodyContainer {
+    min-width: 320px;
+  }
+  .main-container {
+    width: 100%;
+    max-width: 300px;
+  }
+  .main-container .header .headerLogo a {
+    font-size: 26px;
+  }
+  .main-container .header .navList .navItem {
+    display: none;
+  }
+
+  .hero h1 {
+    width: 80%;
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .hero button {
+    font-size: 15px;
+  }
+  .benefits .engineerWorks .companiesLogo {
+    grid-gap: 20px;
+  }
+  .benefits .techStack h2 {
+    font-size: 22px;
+  }
+  .benefits .techStack .techStackCards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .proto {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .proto .protoCard p {
+    font-size: 16px;
+  }
+  .pricing .pricingHeader {
+    font-size: 32px;
+  }
+  .pricing .pricingDescription {
+    font-size: 16px;
+  }
+  .pricing .pricingCards {
+    gap: 30px;
+  }
+  .pricing .pricingCards .pricingCard,
+  .pricing .pricingCards .fullStackCard {
+    width: 270px;
+    height: 450px;
+  }
+
+  .testimonials {
+    padding: 20px 0px;
+  }
+  .testimonials h4 {
+    font-size: 24px;
+  }
+  .testimonials .testimonialsCards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .testimonials .testimonialsCards .testimonialsCard {
+    padding: 20px 20px 50px 20px;
+  }
+  .extraCard {
+    width: 100%;
+    height: 400px;
+    padding: 0px 30px;
+  }
+  .extraCard h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .extraCard p {
+    font-size: 16px;
+  }
+  .extraCard button {
+    font-size: 14px;
+  }
+  .faq {
+    padding: 20px;
+  }
+  .faq .faqCards {
+    max-width: 300px;
+  }
+  .faq .faqCards .faqCard {
+    padding: 10px;
+  }
+  .faq .faqCards .faqCard h4 {
+    font-size: 18px;
+  }
+  .faq .faqCards .faqCard p {
+    font-size: 14px;
+  }
+  .footer .addresses {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
