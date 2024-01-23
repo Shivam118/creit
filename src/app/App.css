@@ -671,10 +671,9 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  .hero button {
-    font-size: 15px;
-  }
+  .hero .content .heroBtns .planBtn,
   .hero .content .heroBtns .meetBtn {
+    font-size: 15px;
     margin-left: 0px;
   }
   .benefits .engineerWorks .companiesLogo {
