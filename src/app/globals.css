@@ -7,6 +7,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  /* border: 1px solid red; */
 }
 button {
   border: none;

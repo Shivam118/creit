@@ -13,27 +13,41 @@
   width: 100%;
   max-width: 1100px;
   position: relative;
+  margin-top: 100px;
 }
 .main-container .header {
   width: 100%;
-  height: 75px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0px 200px;
 }
 .main-container .header .headerLogo {
-  width: 100px;
+  width: 150px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .main-container .header .headerLogo a {
-  font-size: 30px;
+  position: relative;
+  font-size: 45px;
   font-weight: 700;
   color: inherit;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .header .headerLogo a span {
+  position: relative;
+  left: 5px;
 }
 .main-container .header .navList {
   height: 100%;
@@ -68,7 +82,7 @@
 
 .hero {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,10 +117,10 @@
 }
 .hero .content p {
   width: 100%;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   color: grey;
-  margin: 15px 0px;
+  margin: 25px 0px;
 }
 .hero .content .heroBtns {
   display: flex;
@@ -114,10 +128,10 @@
   justify-content: flex-start;
   align-items: center;
   margin-top: 25px;
-  font-size: 18px;
-  font-weight: 500;
 }
 .hero .content .planBtn {
+  font-size: 20px;
+  font-weight: 500;
   padding: 15px 25px;
   border-radius: 7px;
   background: black;
@@ -128,6 +142,8 @@
   background: rgba(0, 0, 0, 0.9);
 }
 .hero .content .meetBtn {
+  font-size: 20px;
+  font-weight: 500;
   margin-left: 25px;
   padding: 15px 25px;
   border-radius: 7px;
@@ -474,6 +490,9 @@
     width: 100%;
     max-width: 450px;
   }
+  .main-container .header {
+    padding: 0px 50px;
+  }
   .main-container .header .headerLogo a {
     font-size: 26px;
   }
@@ -563,6 +582,9 @@
   .main-container {
     width: 100%;
     max-width: 300px;
+  }
+  .main-container .header {
+    padding: 0px;
   }
   .main-container .header .headerLogo a {
     font-size: 26px;

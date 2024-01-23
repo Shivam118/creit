@@ -11,10 +11,32 @@ import StarCanvas from "./Stars";
 export default function Home() {
   return (
     <main className="bodyContainer">
-      <div className="main-container">
+      <div className="main-container" id="home">
         <nav className="header">
           <div className="headerLogo">
-            <a href="#">creIT</a>
+            <ScrollLink
+              to="home"
+              style={{ cursor: "pointer" }}
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <span>
+                <Image
+                  src={"/assets/images/creItLabs.png"}
+                  alt={"companyLogo"}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{
+                    height: "auto",
+                    width: "55px",
+                    pointerEvents: "none",
+                  }}
+                />
+              </span>
+              reIT
+            </ScrollLink>
           </div>
           <ul className="navList">
             <li className="navItem">
