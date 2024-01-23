@@ -212,8 +212,36 @@
   padding: 10px;
   border-bottom: 1px solid #ccc;
 }
-
 .proto {
+  width: 100%;
+  padding: 80px 20px;
+}
+.proto h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.proto .protoDivs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.proto .protoDivs .protoDiv {
+  border: 3px solid #eee;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.proto .protoDivs .protoDiv .protoDivLogo {
+  font-size: 40px;
+}
+.proto .protoDivs .protoDiv p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin: 15px 0px;
+}
+/* .proto {
   width: 100%;
   padding: 80px 20px;
   display: grid;
@@ -236,7 +264,7 @@
   font-weight: 500;
   margin-bottom: 10px;
   margin: 15px 0px;
-}
+} */
 .pricing {
   margin: 150px 0px;
   width: 100%;
@@ -256,6 +284,35 @@
   font-weight: 300;
   margin: 15px 0px;
   color: grey;
+}
+.pricing .pricingSelect {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pricing .pricingSelect .pricingToggle {
+  width: 200px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid #f2f2f2;
+}
+.pricing .pricingSelect .pricingToggle:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.pricing .pricingSelect .pricingToggle:nth-child(2) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pricing .pricingSelect .pricingToggle.active {
+  background: #f2f2f2;
+}
+.pricing .pricingSelect .pricingToggle.inactive {
+  background: white;
 }
 .pricing .pricingCards {
   width: 100%;
@@ -538,12 +595,18 @@
     font-size: 28px;
   }
 
-  .proto {
+  .proto h2 {
+    font-size: 30px;
+  }
+  .proto .protoDivs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* .proto {
     grid-template-columns: repeat(1, 1fr);
   }
   .proto .protoCard p {
     font-size: 16px;
-  }
+  } */
 
   .testimonials h4 {
     font-size: 26px;
