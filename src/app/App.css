@@ -565,25 +565,22 @@
   }
   .hero {
     height: 800px;
-  }
-  .hero .stars {
-    display: none;
+    flex-direction: column-reverse;
   }
   .hero .earth {
     width: 100%;
-    display: none;
   }
   .hero h1 {
     width: 100%;
-    font-size: 38px;
-    margin-bottom: 15px;
+    font-size: 34px;
+    margin-bottom: 10px;
   }
   .hero p {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
   }
   .hero button {
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 16px;
   }
   .benefits .engineerWorks .companiesLogo {
