@@ -449,7 +449,7 @@ export default function Home() {
             We offer a simple pricing structure that is easy to understand and
             easy to budget for.
           </p>
-          <div className="pricingSelect">
+          {/* <div className="pricingSelect">
             <button
               className="pricingToggle active"
               onClick={() => handlePricingToggle(true)}
@@ -463,9 +463,9 @@ export default function Home() {
             >
               Yearly
             </button>
-          </div>
+          </div> */}
           <div className="pricingCards">
-            {pricingMonthly ? (
+            {/* {pricingMonthly ? ( */}
               <>
                 <div className="pricingCard">
                   <h3>Monthly</h3>
@@ -551,7 +551,7 @@ export default function Home() {
                   </Link>
                 </div>
               </>
-            ) : (
+            {/* ) : (
               <>
                 <div className="founderCard">
                   <h3>By founders for founders</h3>
@@ -611,7 +611,7 @@ export default function Home() {
                   </Link>
                 </div>
               </>
-            )}
+            )} */}
           </div>
         </section>
         <section className="extraCard">
