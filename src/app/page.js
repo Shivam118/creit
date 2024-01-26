@@ -16,13 +16,13 @@ import { useState } from "react";
 export default function Home() {
   const [pricingMonthly, setPricingMonthly] = useState(true); //true - Monthly, false - Yearly
 
-  const handlePricingToggle = () => {
-    setPricingMonthly(!pricingMonthly);
-    const pricingToggle = document.querySelectorAll(".pricingToggle");
-    pricingToggle.forEach((toggle) => {
-      toggle.classList.toggle("active");
-      toggle.classList.toggle("inactive");
-    });
+  const handlePricingToggle = (monthly) => {
+    monthly ? setPricingMonthly(true) : setPricingMonthly(false);
+    // const pricingToggle = document.querySelectorAll(".pricingToggle");
+    // pricingToggle.forEach((toggle) => {
+    //   toggle.classList.toggle("active");
+    //   toggle.classList.toggle("inactive");
+    // });
   };
 
   return (
@@ -107,7 +107,7 @@ export default function Home() {
             <StarCanvas />
           </div>
           <div className="content">
-            <h1>The better way to get Development Done</h1>
+            <h1>The better way to get software development done</h1>
             <p>
               Development as a Service for startups, scale-ups, enterprises and
               agencies. Just join, create some asks, and we deliver.
@@ -452,13 +452,14 @@ export default function Home() {
           <div className="pricingSelect">
             <button
               className="pricingToggle active"
-              onClick={handlePricingToggle}
+              onClick={() => handlePricingToggle(true)}
             >
               Monthly
             </button>
             <button
               className="pricingToggle inactive"
-              onClick={handlePricingToggle}
+              onClick={() => handlePricingToggle(false)}
+              disabled={true}
             >
               Yearly
             </button>
@@ -467,8 +468,8 @@ export default function Home() {
             {pricingMonthly ? (
               <>
                 <div className="pricingCard">
-                  <h3>Standard</h3>
-                  <h2>$ 4999/mo</h2>
+                  <h3>Monthly</h3>
+                  <h2>$ 2100/mo</h2>
                   <Link href="https://calendly.com/paarthg" target="_blank">
                     <button>Get Started</button>
                   </Link>
@@ -494,7 +495,7 @@ export default function Home() {
                     Book a call
                   </Link>
                 </div>
-                <div className="pricingCard">
+                {/* <div className="pricingCard">
                   <h3>Enterprise</h3>
                   <h2>$ 7999/mo</h2>
                   <Link href="https://calendly.com/paarthg" target="_blank">
@@ -508,6 +509,33 @@ export default function Home() {
                     <li>Senior, in-house talent</li>
                     <li>Slack support</li>
                     <li>Pause or cancel anytime</li>
+                  </ul>
+                  <Link
+                    href="https://calendly.com/paarthg"
+                    target="_blank"
+                    style={{
+                      color: "inherit",
+                      position: "absolute",
+                      bottom: "30px",
+                      left: "0px",
+                    }}
+                  >
+                    Book a call
+                  </Link>
+                </div> */}
+                <div className="customizeCard">
+                  <h3>For Start-ups</h3>
+                  {/* <h5>{`Can't find what you're looking for?`}</h5> */}
+                  <h2 style={{ fontSize: "20px" }}>Customize your own Plan</h2>
+                  <Link href="https://calendly.com/paarthg" target="_blank">
+                    <button>Get Started</button>
+                  </Link>
+                  <ul className="pricingCardFeatures">
+                    <p>This includes:</p>
+                    <li>30-minute compatibility assessment.</li>
+                    <li>
+                      Receive Prototype in 1<sup>st</sup> Week.
+                    </li>
                   </ul>
                   <Link
                     href="https://calendly.com/paarthg"

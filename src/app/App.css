@@ -113,7 +113,6 @@
   font-size: 44px;
   font-weight: 700;
   margin-bottom: 20px;
-  text-transform: capitalize;
 }
 .hero .content p {
   width: 100%;
@@ -662,7 +661,7 @@
   }
   .hero .content h1 {
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
   }
   .hero .content p {
     font-size: 16px;
