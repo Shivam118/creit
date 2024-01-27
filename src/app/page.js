@@ -496,15 +496,15 @@ export default function Home() {
                 </Link>
               </div>
               <div className="pricingCard">
-                <h3>Startup Plan</h3>
-                <h2>$ 3999/mo</h2>
+                <h3>Startup Plan - one time</h3>
+                <h2>$ 3999 Only</h2>
                 <Link href="https://calendly.com/paarthg" target="_blank">
                   <button>Get Started</button>
                 </Link>
                 <ul className="pricingCardFeatures">
                   <p>This includes:</p>
-                  <li>Free Discovery Call</li>
                   <li>28 Days App Build</li>
+                  <li>Free Discovery Call</li>
                   <li>2 Revision Rounds</li>
                   <li>Full Code Ownership</li>
                   <li>Slack support</li>
@@ -523,7 +523,7 @@ export default function Home() {
                   Book a call
                 </Link>
               </div>
-              <div className="customizeCard">
+              {/* <div className="customizeCard">
                 <h3>{`Can't find what you're looking for?`}</h3>
                 <h2 style={{ fontSize: "20px" }}>Customize your own Plan</h2>
                 <Link href="https://calendly.com/paarthg" target="_blank">
@@ -548,7 +548,7 @@ export default function Home() {
                 >
                   Book a call
                 </Link>
-              </div>
+              </div> */}
             </>
             {/* ) : (
               <>
