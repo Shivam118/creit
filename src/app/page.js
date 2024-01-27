@@ -466,91 +466,90 @@ export default function Home() {
           </div> */}
           <div className="pricingCards">
             {/* {pricingMonthly ? ( */}
-              <>
-                <div className="pricingCard">
-                  <h3>Monthly</h3>
-                  <h2>$ 2100/mo</h2>
-                  <Link href="https://calendly.com/paarthg" target="_blank">
-                    <button>Get Started</button>
-                  </Link>
-                  <ul className="pricingCardFeatures">
-                    <p>This includes:</p>
-                    <li>Unlimited requests</li>
-                    <li>Unlimited projects</li>
-                    <li>Unlimited users</li>
-                    <li>Senior, in-house talent</li>
-                    <li>Slack support</li>
-                    <li>Pause or cancel anytime</li>
-                  </ul>
-                  <Link
-                    href="https://calendly.com/paarthg"
-                    target="_blank"
-                    style={{
-                      color: "inherit",
-                      position: "absolute",
-                      bottom: "30px",
-                      left: "0px",
-                    }}
-                  >
-                    Book a call
-                  </Link>
-                </div>
-                {/* <div className="pricingCard">
-                  <h3>Enterprise</h3>
-                  <h2>$ 7999/mo</h2>
-                  <Link href="https://calendly.com/paarthg" target="_blank">
-                    <button>Get Started</button>
-                  </Link>
-                  <ul className="pricingCardFeatures">
-                    <p>This includes:</p>
-                    <li>Unlimited requests</li>
-                    <li>Unlimited projects</li>
-                    <li>Unlimited users</li>
-                    <li>Senior, in-house talent</li>
-                    <li>Slack support</li>
-                    <li>Pause or cancel anytime</li>
-                  </ul>
-                  <Link
-                    href="https://calendly.com/paarthg"
-                    target="_blank"
-                    style={{
-                      color: "inherit",
-                      position: "absolute",
-                      bottom: "30px",
-                      left: "0px",
-                    }}
-                  >
-                    Book a call
-                  </Link>
-                </div> */}
-                <div className="customizeCard">
-                  <h3>For Start-ups</h3>
-                  {/* <h5>{`Can't find what you're looking for?`}</h5> */}
-                  <h2 style={{ fontSize: "20px" }}>Customize your own Plan</h2>
-                  <Link href="https://calendly.com/paarthg" target="_blank">
-                    <button>Get Started</button>
-                  </Link>
-                  <ul className="pricingCardFeatures">
-                    <p>This includes:</p>
-                    <li>30-minute compatibility assessment.</li>
-                    <li>
-                      Receive Prototype in 1<sup>st</sup> Week.
-                    </li>
-                  </ul>
-                  <Link
-                    href="https://calendly.com/paarthg"
-                    target="_blank"
-                    style={{
-                      color: "inherit",
-                      position: "absolute",
-                      bottom: "30px",
-                      left: "0px",
-                    }}
-                  >
-                    Book a call
-                  </Link>
-                </div>
-              </>
+            <>
+              <div className="pricingCard">
+                <h3>Monthly</h3>
+                <h2>$ 2100/mo</h2>
+                <Link href="https://calendly.com/paarthg" target="_blank">
+                  <button>Get Started</button>
+                </Link>
+                <ul className="pricingCardFeatures">
+                  <p>This includes:</p>
+                  <li>Unlimited requests</li>
+                  <li>Unlimited projects</li>
+                  <li>Unlimited users</li>
+                  <li>Senior, in-house talent</li>
+                  <li>Slack support</li>
+                  <li>Pause or cancel anytime</li>
+                </ul>
+                <Link
+                  href="https://calendly.com/paarthg"
+                  target="_blank"
+                  style={{
+                    color: "inherit",
+                    position: "absolute",
+                    bottom: "30px",
+                    left: "0px",
+                  }}
+                >
+                  Book a call
+                </Link>
+              </div>
+              <div className="pricingCard">
+                <h3>Startup Plan</h3>
+                <h2>$ 3999/mo</h2>
+                <Link href="https://calendly.com/paarthg" target="_blank">
+                  <button>Get Started</button>
+                </Link>
+                <ul className="pricingCardFeatures">
+                  <p>This includes:</p>
+                  <li>Free Discovery Call</li>
+                  <li>28 Days App Build</li>
+                  <li>2 Revision Rounds</li>
+                  <li>Full Code Ownership</li>
+                  <li>Slack support</li>
+                  <li>Pause or cancel anytime</li>
+                </ul>
+                <Link
+                  href="https://calendly.com/paarthg"
+                  target="_blank"
+                  style={{
+                    color: "inherit",
+                    position: "absolute",
+                    bottom: "30px",
+                    left: "0px",
+                  }}
+                >
+                  Book a call
+                </Link>
+              </div>
+              <div className="customizeCard">
+                <h3>{`Can't find what you're looking for?`}</h3>
+                <h2 style={{ fontSize: "20px" }}>Customize your own Plan</h2>
+                <Link href="https://calendly.com/paarthg" target="_blank">
+                  <button>Get Started</button>
+                </Link>
+                <ul className="pricingCardFeatures">
+                  <p>This includes:</p>
+                  <li>30-minute compatibility assessment.</li>
+                  <li>
+                    Receive Prototype in 1<sup>st</sup> Week.
+                  </li>
+                </ul>
+                <Link
+                  href="https://calendly.com/paarthg"
+                  target="_blank"
+                  style={{
+                    color: "inherit",
+                    position: "absolute",
+                    bottom: "30px",
+                    left: "0px",
+                  }}
+                >
+                  Book a call
+                </Link>
+              </div>
+            </>
             {/* ) : (
               <>
                 <div className="founderCard">
@@ -677,7 +676,7 @@ export default function Home() {
               <span className="name">Aniket Kumar</span>
               <span className="Logo">
                 <Image
-                  src="/assets/images/darwinbox.png"
+                  src="/assets/images/greetGrid.svg"
                   alt="darwinbox"
                   width={75}
                   height={0}
@@ -692,11 +691,11 @@ export default function Home() {
               <span className="name">Vikas Singh</span>
               <span className="Logo">
                 <Image
-                  src="/assets/images/xoxoday.png"
+                  src="/assets/images/fossip.jpg"
                   alt="xoxoday"
-                  width={75}
+                  width={25}
                   height={0}
-                  style={{ height: "auto" }}
+                  style={{ height: "auto", borderRadius: "50%" }}
                 />
               </span>
             </div>
